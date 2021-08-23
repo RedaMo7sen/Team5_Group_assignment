@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Register</title>
+</head>
+<body>
+    <table width='100%' bgcolor='gray'>
+        <tr>
+            <td width='88%'>
+                <h1><font face='montserrat' color='white'> E-Cart</font></h1>
+            </td>
+            <td>
+                <font face='montserrat' size='2'><h4><a href="login.html">Login</a>  |  <a href="reg.html">Create Account</a></h4></font>
+            </td>
+        </tr>
+    </table> 
+
+    
+    <form action="file.php" method="get">
+        <br>
+        First name <input type="text" name="Fn" id="n1" placeholder=" ex :Ahmed ..."> 
+        <br><br>
+        Last name <input type="text" name="ln" id="n2" placeholder=" ex :Ahmed ...">
+        <br><br>
+        Password <input type="password" name="pw" id="p1">
+        <br><br> 
+        Confirm password <input type="password" name="pwc" id="p2" >
+        <br><br>
+        Address <input type="text" name="ad" id="n1" >
+        <br><br>
+        E-mail <input type="email" name="E-mail" id="e1" >
+        <br><br>
+        Phone number <input type="text" name="pn" id="p1" >
+        <br><br>
+        Gender 
+        <input type="radio" name="genderb" id="p2" value="m" >Male 
+        <input type="radio" name="genderb" id="p2" value="f">Female
+        <br><br>
+        Country
+        <select name="CountryBox" id="">
+            <option value="eg" selected>egypt</option>
+            <option value="usa" selected>us</option>
+            <option value="ksa selected">ksa</option>
+            <option value="uae"selected>uae</option>
+            <option value="sz"selected>switzerland</option>
+        
+        </select>
+        <br><br>
+        choose your profile picture
+        
+        <input type="file" name="pic"><br><br>
+        <button type="submit">submit</button>
+             <button type="reset">reset</button>
+        </form>
+
+
+</body>
+</html>
